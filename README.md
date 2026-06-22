@@ -1,77 +1,212 @@
-# Utility Usage Prediction Tool (ML – Console)
+# ⚡ Utility Usage Prediction Tool (ML Console Application)
 
-## Overview
-A Machine Learning-based console application that predicts future utility usage using historical consumption data. The project demonstrates data handling, preprocessing, machine learning implementation, and exception handling.
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
 
-## Features
-- Menu-driven console interface
+## 🚀 Overview
+
+The **Utility Usage Prediction Tool** is a Machine Learning-based console application that predicts future utility consumption (electricity, water, gas, etc.) using historical usage data.
+
+The system provides a menu-driven interface for managing records, visualizing usage trends, and forecasting future consumption through a Linear Regression model.
+
+---
+
+## ✨ Features
+
+### 📊 Data Management
 - Add utility usage records
 - Update existing records
-- CSV file storage and retrieval
-- Usage prediction using Machine Learning
-- Error and exception handling
+- View stored data
+- CSV file handling
 
-## Technologies Used
+### 🤖 Machine Learning
+- Linear Regression model
+- Future usage prediction
+- Historical data analysis
+
+### 📈 Data Visualization
+- Utility usage trend graphs
+- Interactive Matplotlib charts
+- Easy-to-understand visual insights
+
+### 🛡 Exception Handling
+- Invalid input handling
+- File error handling
+- Safe program execution
+
+---
+
+## 🖥 Menu Interface
+
+```text
+=================================
+ Utility Usage Prediction Tool
+=================================
+
+1. Add Usage Data
+2. Update Usage Data
+3. View Usage Records
+4. Predict Future Usage
+5. Show Usage Graph
+6. Exit
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+Utility-Usage-Prediction-Tool/
+│
+├── main.py
+├── utility_usage.csv
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
+- Scikit-Learn
+- Matplotlib
+- CSV File Handling
 
-## Project Structure
+---
 
-Utility-Usage-Prediction-Tool/
-│
-├── utility_usage.csv
-├── main.py
-├── model.py
-├── requirements.txt
-└── README.md
+## 🧠 Machine Learning Workflow
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
+```text
+Historical Data
+      ↓
+ CSV Storage
+      ↓
+ Data Loading
+      ↓
+ Model Training
+      ↓
+ Prediction
+      ↓
+ Visualization
 ```
 
-2. Navigate to the project folder:
+---
+
+## 📥 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Utility-Usage-Prediction-Tool.git
+```
+
+### Navigate to Project Folder
 
 ```bash
 cd Utility-Usage-Prediction-Tool
 ```
 
-3. Install dependencies:
+### Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scikit-learn matplotlib
 ```
 
-## Run the Project
+---
+
+## ▶️ Running the Project
 
 ```bash
 python main.py
 ```
 
-## Menu Options
+---
 
-1. Add Usage Data
-2. Update Usage Data
-3. View Data
-4. Predict Future Usage
-5. Exit
+## 📊 Sample Usage Data
 
-## Machine Learning Model
+| Month | Usage |
+|---------|---------|
+| 1 | 120 |
+| 2 | 135 |
+| 3 | 128 |
+| 4 | 145 |
+| 5 | 150 |
 
-The project uses a simple Linear Regression model to predict future utility consumption based on historical usage patterns.
+---
 
-## Future Enhancements
+## 📈 Sample Prediction
 
-- Graphical data visualization
-- Advanced ML algorithms
+```text
+Enter Future Month: 6
+
+Predicted Usage for Month 6: 157.40 Units
+```
+
+---
+
+## 📉 Graph Visualization
+
+The application generates a line graph showing utility usage trends over time.
+
+Features:
+- Month-wise usage tracking
+- Trend analysis
+- Interactive visualization
+- Prediction support
+
+---
+
+## 🎯 Learning Outcomes
+
+- CSV File Handling
+- Data Preprocessing
+- Machine Learning Basics
+- Linear Regression
+- Data Visualization
+- Exception Handling
+- Console Application Development
+
+---
+
+## 🔮 Future Enhancements
+
+- GUI using Tkinter
+- Multiple utility categories
+- Advanced ML models
 - Database integration
-- Web-based interface
+- Report generation
+- Web dashboard
 
-## Author
+---
 
-Developed as part of a Machine Learning learning project.
+## 🤝 Contribution
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## ⭐ Support
+
+If you found this project helpful:
+
+- Star the repository
+- Fork the project
+- Share with others
+
+---
+
+## 👨‍💻 Author
+
+**Yash Vinchurkar**
+
+Machine Learning Enthusiast | Python Developer | Data Science Learner
